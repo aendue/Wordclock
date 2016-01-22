@@ -1,0 +1,47 @@
+﻿Der Buildvorgang wurde am 05.07.2015 12:00:32 gestartet.
+     1>Projekt "E:\Arduino\Projekte\RGB_Wordclock\Wordclock\Wordclock\Wordclock.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs" /IE:\Arduino\Projekte\RGB_Wordclock\Wordclock\Wordclock /I"C:\Program Files (x86)\Arduino\libraries\Adafruit_NeoPixel-master" /I"C:\Program Files (x86)\Arduino\libraries\Adafruit_NeoPixel-master\utility" /I"C:\Program Files (x86)\Arduino\libraries\DS1307new" /I"C:\Program Files (x86)\Arduino\libraries\DS1307new\utility" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries\Wire\utility" /I"C:\Program Files (x86)\Arduino\libraries\wordclock" /I"C:\Program Files (x86)\Arduino\libraries\wordclock\utility" /I"C:\Program Files (x86)\Arduino\libraries" /I"C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries" /I"C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers" /IE:\Arduino\Projekte\RGB_Wordclock\Wordclock\libraries /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/" /I"C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D CODE_ANALYSIS /D __AVR_ATmega328p__ /D __AVR_ATmega328P__ /D ARDUINO=163 /D ARDUINO_MAIN /D __AVR__ /D __avr__ /D F_CPU=16000000L /D __cplusplus /D ARDUINO_ARCH_AVR /D ARDUINO_AVR_NANO /D _MBCS /X /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FI"E:\Arduino\Projekte\RGB_Wordclock\Wordclock\Wordclock\Visual Micro\.Wordclock.vsarduino.h" /analyze /errorReport:prompt   /analyze:quiet clock.cpp
+         clock.cpp
+     1>c1xx : warning C4117: Makroname '__cplusplus' ist reserviert, '#define' wird ignoriert
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(13): warning C4005: '__AVR_ATmega328p__': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "__AVR_ATmega328p__"
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(14): warning C4005: '__AVR_ATmega328P__': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "__AVR_ATmega328P__"
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(16): warning C4005: 'ARDUINO_MAIN': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "ARDUINO_MAIN"
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(17): warning C4005: '__AVR__': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "__AVR__"
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(18): warning C4005: '__avr__': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "__avr__"
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(20): warning C4117: Makroname '__cplusplus' ist reserviert, '#define' wird ignoriert
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(21): warning C4005: 'ARDUINO_ARCH_AVR': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "ARDUINO_ARCH_AVR"
+     1>e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(22): warning C4005: 'ARDUINO_AVR_NANO': Makro-Neudefinition
+                 Befehlszeilenargumente: siehe vorherige Definition von "ARDUINO_AVR_NANO"
+     1>c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.8.1\include\stddef.h(212): error C2371: 'size_t': Neudefinition; unterschiedliche Basistypen
+                 e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\predefined c++ types (compiler internal)(19): Siehe Deklaration von 'size_t'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\math.h(364): warning C4002: Zu viele übergebene Parameter für das Makro '__asm__'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\pgmspace.h(1187): error C2446: ':': Keine Konvertierung von 'size_t' in 'const char *'
+                 Die Konvertierung eines ganzzahligen Typs in einen Zeigertyp erfordert ein reinterpret_cast-Operator oder eine Typumwandlung im C- oder Funktionsformat
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\arduino.h(118): error C2371: 'byte': Neudefinition; unterschiedliche Basistypen
+                 e:\arduino\projekte\rgb_wordclock\wordclock\wordclock\visual micro\.wordclock.vsarduino.h(66): Siehe Deklaration von 'byte'
+     1>c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(122): error C2535: 'size_t HardwareSerial::write(uint8_t)': Memberfunktion bereits definiert oder deklariert
+                 c:\program files (x86)\arduino\hardware\arduino\avr\cores\arduino\hardwareserial.h(119): Siehe Deklaration von 'HardwareSerial::write'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C4980: "__value": Für die Verwendung dieses Schlüsselworts ist die Befehlszeilenoption /clr:oldSyntax erforderlich.
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(684): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(689): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(694): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(699): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(711): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(716): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(721): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\eeprom.h(726): error C2059: Syntaxfehler: '__value'
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(88): error C2065: '__asm__': nichtdeklarierter Bezeichner
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay_basic.h(110): error C2065: '__asm__': nichtdeklarierter Bezeichner
+     1>c:\program files (x86)\arduino\hardware\tools\avr\avr\include\util\delay.h(95): fatal error C1021: Ungültiger Präprozessorbefehl "warning".
+     1>Die Erstellung des Projekts "E:\Arduino\Projekte\RGB_Wordclock\Wordclock\Wordclock\Wordclock.vcxproj" ist abgeschlossen, Rebuild Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:01.12
